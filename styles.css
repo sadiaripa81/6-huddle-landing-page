@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 60px 60px 0 60px;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(./images/bg-desktop.svg);
+}
+.top_div {
+    height: 45px;
+}
+.logo {
+    width: 180px;
+}
+.middle_div {
+    margin: 0;
+    padding-top: 60px;
+    display: flex;
+}
+.img_div {
+    margin: 0;
+    width: 50%;
+}
+.illustration_mockups_img {
+    width: 100%;
+}
+.card_div {
+    margin: 0;
+    width: 50%;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.title {
+    margin: 50px 0;
+    padding-right: 190px;
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.subtitle {
+    margin: 30px 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.button {
+    height: 55px;
+    width: 180px;
+    border-radius: 35px;
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(257, 40%, 49%);
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.button:hover {
+    color: white;
+    cursor: pointer;
+    background-color: hsl(300, 69%, 71%);
+}
+.last_div {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.facebook {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.facebook:hover {
+    border-color: hsl(322, 100%, 66%);
+}
+.tweeter {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.tweeter:hover {
+    border-color: hsl(322, 100%, 66%);
+}
+.instagram {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.instagram:hover {
+    border-color: hsl(322, 100%, 66%);
+}
+svg {
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+}
+svg:hover {
+    fill: hsl(322, 100%, 66%);
+}
+@media only screen and (max-width: 400px) {
+    body {
+        padding: 45px 45px 0 45px;
+    }
+    .title {
+        padding: 0;
+        font-size: 28px;
+        align-self: center;
+    }
+    .subtitle {
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    .logo {
+        height: 30px;
+    }
+    .middle_div{
+        flex-direction: column;
+    }
+    .img_div {
+        width: 100%;
+        padding: 0;
+    }
+    .card_div {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .last_div {
+        height: 70px;
+        padding-top: 30px;
+        justify-content: center;
+        gap: 20px;
+    }
+}
